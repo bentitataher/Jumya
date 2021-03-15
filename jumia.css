@@ -1,0 +1,445 @@
+body
+{
+    background-color: #f5f5f5;
+}
+
+
+.orange-header
+{
+    background-color: #ff9900;
+    height: 56px;
+}
+
+.vente-jumia
+{
+    height: 33px;
+}
+
+.vente-jumia img{
+    width: 15px;
+    margin-left: 212px;
+}
+
+.vente-jumia a{
+    font-size: 12px;
+    color: #ff9900;
+}
+
+img
+{
+    width: 150px;
+    margin-left: -24px;
+}
+
+.navbar
+{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.navbar .container form
+{
+    margin-left: 57px;   
+}
+
+nav div .form-inline .input-group .input-group-prepend .input-group-text
+{
+    background-color: white;
+    border-right: none;
+}
+
+.navbar .container .form-inline .input-group .form-control
+{
+    width: 412px;
+    border-left: none;
+}
+
+.navbar .container .form-inline .input-group .btn
+{
+    background-color: #ff9900;
+    color: #fff;
+    margin-left: 8px;
+    width: 117px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+li a {
+    color: #282828;
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
+    font-weight: 600;
+}
+
+nav .container .navbar-nav .nav-item a {
+    color: #282828;
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
+    font-weight: 600;
+    margin-left: 9px;
+    font-size: 16px;
+}
+
+nav .container .navbar-nav .nav-item a:hover {
+    color: #ff9900;
+}
+
+nav .container ul
+{
+    width: 350px;
+}
+
+/* Fin Barre de navigation */
+
+/* Début Menu vertical */
+
+
+
+
+.v-menu /* le div qui contien tout le menu vertical */
+{
+    background-color: white;
+    margin-left: -39px;
+    margin-top: 15px;
+    width: 208px;
+}
+
+.sec-v-menu .v-menu .row .dropright .nav-link /* Superette : style de base (avant hover) */
+{
+    width: 221px;
+    color: #282828;
+    margin-top: -3px;
+    font-size: 12px;
+}
+
+.sec-v-menu .v-menu .row .dropright .nav-link:hover /* hover des éléments a du menu vertical */
+{   
+    width: 221px;
+    color: #ff9900;    
+}
+
+/* les menus des éléments qui s'affichent à coté au passage de la souris) */
+.sec-v-menu .v-menu .row .dropright .div-superette           {                   background-color: white; width: 750px; height: 373px; }
+.sec-v-menu .v-menu .row .dropright .div-maison-bureau       {margin-top:-31px;  background-color: white; width: 750px; height: 373px; }
+.sec-v-menu .v-menu .row .dropright .div-sante-beaute        {margin-top:-62px;  background-color: white; width: 750px; height: 373px; }
+.sec-v-menu .v-menu .row .dropright .div-tablette-telephone  {margin-top:-93px;  background-color: white; width: 750px; height: 373px; }
+.sec-v-menu .v-menu .row .dropright .div-mode                {margin-top:-124px; background-color: white; width: 750px; height: 373px; }
+.sec-v-menu .v-menu .row .dropright .div-informatique        {margin-top:-155px; background-color: white; width: 750px; height: 373px; }
+.sec-v-menu .v-menu .row .dropright .div-electronique        {margin-top:-186px; background-color: white; width: 750px; height: 373px; }
+.sec-v-menu .v-menu .row .dropright .div-jeux                {margin-top:-217px; background-color: white; width: 750px; height: 373px; }
+.sec-v-menu .v-menu .row .dropright .div-article-sport       {margin-top:-248px; background-color: white; width: 750px; height: 373px; }
+.sec-v-menu .v-menu .row .dropright .div-auto-moto           {margin-top:-279px; background-color: white; width: 750px; height: 373px; }
+.sec-v-menu .v-menu .row .dropright .div-jardin-plein-air    {margin-top:-310px; background-color: white; width: 750px; height: 373px; }
+.sec-v-menu .v-menu .row .dropright .div-autre               {margin-top:-341px; background-color: white; width: 750px; height: 373px; }
+
+
+
+.dropright:hover>.dropdown-menu /* l'élément hover des menus qui saffiche à droite des élément */
+{
+    display: block;
+}
+
+/* conteneur de la carreoussel */
+.divcar
+{
+    margin-top: 16px;
+    margin-left: 15px;
+    width: 732px;
+    height: 370px;
+}
+
+/* les div dans la carroussel */
+.dimdiv
+{
+    height: 370px;
+}
+
+.immg
+{
+    width: 685px;
+}
+
+/* La fléche "next" de la carreoussel */
+.carousel-control-next
+{
+    right: 73px;
+}
+
+/* fin de la carroussel */
+
+
+.div-4-Boutons
+{
+    height: 58px;
+    margin-left: -40px;
+    margin-top: 13px;
+}
+
+.div-01 , .div-02 , .div-03 , .div-04
+{
+    background-color: white;
+    width: 277px;
+    border-radius: 3px;
+}
+
+
+.container-3 .justify-content-between .div-01 img { width: 40px ;}
+.container-3 .justify-content-between .div-02 img { width: 40px ;}
+.container-3 .justify-content-between .div-03 img { width: 40px ;}
+.container-3 .justify-content-between .div-04 img { width: 40px ;}
+
+.container-3 .justify-content-between .div-01 a,
+.container-3 .justify-content-between .div-02 a,
+.container-3 .justify-content-between .div-03 a,
+.container-3 .justify-content-between .div-04 a
+
+{
+    color: #282828;
+    display: inline-block;
+    padding: 7px;
+}
+
+.recommandation /* La div mére de la section */
+{
+    height: 58px;
+    margin-left: -40px;
+    margin-top: 13px;
+    background-color: white;
+    height: 311px;
+}
+
+.container-4 .recommandation p
+{
+    font-weight: 700;
+    font-size: 20px;
+    color: #282828;
+}
+
+#di
+{
+    width: 180px;
+    height: 260px;
+}
+
+.img-1
+{
+    width: 176px;
+    margin: 0 auto;
+}
+
+.collection /* La div mére de la section */
+{
+    height: 58px;
+    margin-left: -40px;
+    margin-top: 13px;
+    background-color: white;
+    height: 338px;
+}
+
+#collect
+{
+    width: 180px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+#img-collect        { margin-left: -15px ; width: 210px ; }
+#legende-collect    { text-align: center; font-size: 14px; font-weight: 500;}
+
+
+
+
+.container-5 .collection p
+{
+    font-weight: 700;
+    font-size: 20px;
+    color: #282828;
+}
+
+/* Fin - Section - Collection */
+
+/* ============================================================================================================ */
+
+/* Début - Section - Offres du jour */
+
+.offre-du-jour .section-1 
+{
+    background-color: red;
+    margin-left: -55px;
+    margin-top: 15px ;
+    width: 1150px;
+    height: 49px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.offre-du-jour .section-2 /* IMPORTANT ! : style de références pour calibrer les divs filles directes de la classe container */
+{
+    margin-left: -55px;
+    width: 1150px;
+    height: 264px;
+    background-color: white;
+}
+
+#offre-du-jour-produit     {}
+#offre-du-jour-img         {width:           183px; margin-left: 2px;  margin-top: 5px;               }
+#offre-du-jour-label       {margin-bottom:     0px; margin-left: 15px; font-size: 14px;              }
+#offre-du-jour-prix        {margin-bottom:     0px; margin-left: 15px;                               }
+#offre-du-jour-ancien-prix {font-size:        12px; margin-left: 15px; text-decoration: line-through;}
+
+/* Fin - Section - Offres du jour */
+
+/* ============================================================================================================ */
+
+/* Début - 2 banières après section Offres du jour */
+
+.deux-banieres div{ margin-left: -55px;   width:      1150px;  height: 264px; background-color: white; margin-top: 15px; border-radius: 3px; }
+#deux-ban         { width:       560px;   border-radius: 3px; }
+
+/* Fin - 2 banières après section Offres du jour */
+
+/* ============================================================================================================ */
+
+/* Début - Section - Offres du jour */
+
+.smartphones .section-1 
+{
+    background-color: #FFA500;
+    margin-left: -55px;
+    margin-top: 15px ;
+    width: 1150px;
+    height: 49px;
+    color: black;
+    font-size: 20px;
+
+}
+
+.smartphones .section-2 /* IMPORTANT ! : style de références pour calibrer les divs filles directes de la classe container */
+{
+    margin-left: -55px;
+    width: 1150px;
+    height: 264px;
+    background-color: white;
+}
+
+#smartphones-produit     {}
+#smartphones-img         {width:           183px; margin-left: 2px;  margin-top: 5px;               }
+#smartphones-label       {margin-bottom:     0px; margin-left: 15px; font-size: 14px;              }
+#smartphones-prix        {margin-bottom:     0px; margin-left: 15px;                               }
+#smartphones-ancien-prix {font-size:        12px; margin-left: 15px; text-decoration: line-through;}
+
+/* Fin - Section - Offres du jour */
+
+/* ============================================================================================================ */
+
+/* Début - Section - sac-a-dos */
+
+.sac-a-dos .section-1 
+{
+    background-color: #FFA500;
+    margin-left: -55px;
+    margin-top: 15px ;
+    width: 1150px;
+    height: 49px;
+    color: black;
+    font-size: 20px;
+
+}
+
+.sac-a-dos .section-2 /* IMPORTANT ! : style de références pour calibrer les divs filles directes de la classe container */
+{
+    margin-left: -55px;
+    width: 1150px;
+    height: 264px;
+    background-color: white;
+}
+
+#sac-a-dos-produit     {}
+#sac-a-dos-img         {width:           183px; margin-left: 2px;  margin-top: 5px;               }
+#sac-a-dos-label       {margin-bottom:     0px; margin-left: 15px; font-size: 14px;              }
+#sac-a-dos-prix        {margin-bottom:     0px; margin-left: 15px;                               }
+#sac-a-dos-ancien-prix {font-size:        12px; margin-left: 15px; text-decoration: line-through;}
+
+/* Fin - Section - Sac à dos */
+
+/* ============================================================================================================ */
+
+.decouvrir .section-1 
+{
+    background-color: white;
+    margin-left: -55px;
+    margin-top: 15px ;
+    width: 1150px;
+    height: 49px;
+    color: black;
+    font-size: 20px;
+
+}
+
+.decouvrir .section-2
+{
+    margin-left: -55px;
+    width: 1150px;
+    height: 144px;
+    background-color: white;
+}
+
+.decouvrir .section-3
+{
+    margin-left: -55px;
+    width: 1150px;
+    height: 144px;
+    background-color: white;
+}
+
+#decouvrir-produit     {width: 190px;}
+#decouvrir-img         {width:           183px; margin-left: 2px;  margin-top: 5px;               }
+#decouvrir-label       {margin-bottom:     0px; margin-left: 61px; font-size: 14px;              }
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------- */
+
+.conteneur-img
+{
+    margin-top: 15px;
+    background-color: white;
+    height: 200px;
+    max-width: 1200px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------- FOOTER - section 1 ------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
+.container .section-1-footer
+{
+    height: 740px;
+    max-width: 1300px;
+    width: 1150px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: -40px;
+    color: #282828;
+}
+
+.section-1-footer .section-1-footer-01 ,
+.section-1-footer .section-1-footer-04 ,
+.section-1-footer .section-1-footer-07
+{
+    font-size: 18px
+}
+
+.section-1-footer .section-1-footer-02 ,
+.section-1-footer .section-1-footer-03 ,
+.section-1-footer .section-1-footer-05 ,
+.section-1-footer .section-1-footer-06
+{
+    font-size: 13px
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------- FOOTER - section 2 ------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
